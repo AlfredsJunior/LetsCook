@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:background="@drawable/clear_sky"
+    tools:context="com.alfredtechsystems.letscook.SignUpActivity">
+
+    <EditText
+        android:id="@+id/signup_email_editxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:hint="@string/enter_your_email"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/signup_pass_editxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_email_editxt"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:hint="@string/password"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/signup_bttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_pass_editxt"
+        android:layout_marginTop="10dp"
+        android:text="@string/sign_up"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="singupbuttonclicked"/>
+
+
+
+</RelativeLayout>

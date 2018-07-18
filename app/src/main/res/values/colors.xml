@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#111</color>
+    <color name="light_grey">#AAA</color>
+    <color name="green">#4081</color>
+    <color name="purple">#515</color>
+    <color name="dark_purple">#303</color>
+    <color name="white">#FFF</color>
+    <color name="blue">#333F</color>
+    <color name="goodcolor">#4aa</color>
+    <color name="shouting_green">#081</color>
+    <color name="brown_mzee">#3F51</color>
+
+</resources>

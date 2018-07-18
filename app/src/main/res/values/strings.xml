@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Lets Cook</string>
+    <string name="new_feed_textview"> News Feed</string>
+    <string name="news_feed_login"> Log In</string>
+    <string name="new_feed_signuptxt"> Create account?</string>
+    <string name="new_feed_image1_desc"> This image 1 is auto generated</string>
+    <string name="new_feed_image2_desc"> This image 2 is auto generated </string>
+    <string name="new_feed_image3_desc"> This image 3 is auto generated</string>
+    <string name="new_feed_image4_desc"> This image 4 is auto generated </string>
+    <string name="new_feed_image5_desc"> This image 5 is auto generated</string>
+    <string name="new_feed_image6_desc"> This image 6 is auto generated </string>
+    <string name="password">*********</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="enter_item_name">Enter Item Name</string>
+    <string name="enter_item_description">Enter Item Description</string>
+    <string name="todo">TODO</string>
+    <string name="add_item_to_menu">Add Item to Menu</string>
+    <string name="enter_item_price">Enter Item Price</string>
+    <string name="login">Login</string>
+    <string name="order_item">Order Item</string>
+    <string name="mashakura">Mashakura</string>
+    <string name="loved_kikuyu_dish">Loved Kikuyu Dish</string>
+    <string name="_0_7">$0.7</string>
+
+
+</resources>

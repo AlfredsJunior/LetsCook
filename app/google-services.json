@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "226108540866",
+    "firebase_url": "https://letscook-8a2a4.firebaseio.com",
+    "project_id": "letscook-8a2a4",
+    "storage_bucket": "letscook-8a2a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226108540866:android:5260510994efa148",
+        "android_client_info": {
+          "package_name": "com.alfredtechsystems.letscook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226108540866-u6d3alnp10bv23bpbv5rn47nmk2lbstq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alfredtechsystems.letscook",
+            "certificate_hash": "a3e0ed5f75a4062a38b22ccc73b4520c26dba2d7"
+          }
+        },
+        {
+          "client_id": "226108540866-7k8i2su57778kn7jr4gkspe4jg1bnfid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCihlQYZygEexabEAOXcJEH9kJUys-Yyl4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226108540866-7k8i2su57778kn7jr4gkspe4jg1bnfid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

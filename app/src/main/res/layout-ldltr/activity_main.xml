@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+
+
+    tools:context="com.alfredtechsystems.letscook.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/new_feed_textview"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:id="@+id/textView" />
+
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/main_imageview1"
+        android:src="@drawable/chips"
+        android:contentDescription="@string/new_feed_image1_desc"/>
+
+    <ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:id="@+id/main_imageview2"
+     android:layout_below="@+id/main_imageview1"
+   android:contentDescription="@string/new_feed_image2_desc"
+    android:src="@drawable/pizza"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/main_imageview3"
+        android:layout_below="@+id/main_imageview2"
+        android:contentDescription="@string/new_feed_image3_desc"
+        android:src="@drawable/health_fruits"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/main_imageview4"
+        android:contentDescription="@string/new_feed_image4_desc"
+        android:layout_below="@+id/main_imageview3"
+        android:src="@drawable/yummmy_yummy"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/new_feed_image5_desc"
+        android:id="@+id/main_imageview5"
+        android:layout_below="@+id/main_imageview4"
+        android:src="@drawable/food_presentation"/>
+
+    <Button
+        android:id="@+id/newsfeed_singup"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/main_imageview1"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/main_imageview1"
+        android:onClick="com.alfredsystems.letscook.MenuActivity"
+        android:text="@string/news_feed_login"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/main_imageview3"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@+id/main_imageview1"
+        android:text="@string/new_feed_signuptxt"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:clickable="true"
+        android:onClick=".SignUpActivivty"
+        tools:ignore="OnClick" android:focusable="true"/>
+
+
+
+
+
+</RelativeLayout>

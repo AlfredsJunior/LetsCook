@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/clear_sky"
+    tools:context=".LoginActivity">
+
+    <EditText
+
+       android:layout_marginTop="200dp" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/enter_your_email"
+        android:id="@+id/userEmail"
+        android:inputType="" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="***************"
+        android:id="@+id/userpassword" android:inputType="" />
+    <Button
+        android:id="@+id/loginloginbbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/login"
+        android:onClick="LoginButtonClicked"
+        android:background="@color/colorPrimaryDark"/>
+    <TextView
+        android:id="@+id/loginsignup"
+        android:layout_marginVertical="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="@string/new_feed_signuptxt"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        android:clickable="true"
+        android:onClick="signUpTextClicked"/>
+
+
+</LinearLayout>
